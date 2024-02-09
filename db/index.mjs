@@ -11,7 +11,7 @@ dotenv.config({
   path: path.join(__dirname, '../.env'),
 });
 
-const { Pool, Client } = pkg;
+const { Pool } = pkg;
 
 const pool = new Pool({
   user: process.env.DB_USER,
