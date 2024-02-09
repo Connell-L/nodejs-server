@@ -1,0 +1,8 @@
+dist
+node_modules
+*.log
+coverage
+public/js
+.env
+test-results/
+pnpm-lock.yaml
